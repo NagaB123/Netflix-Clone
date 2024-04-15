@@ -1,0 +1,15 @@
+.MovieRows {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: 10px;
+    gap: 15px;
+}
+
+.card {
+    transition: transform .1s ease-out;
+}
+
+.card:hover {
+    transform: translate(2.5px, 2.5px);
+}
